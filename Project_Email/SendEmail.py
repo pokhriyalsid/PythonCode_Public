@@ -1,4 +1,5 @@
 #This code is to send email in Python
+#This is working code
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -6,7 +7,8 @@ import getpass
 
 emailadd = 'spokhriyal@plannet21.ie'
 password = getpass.getpass()
-s = smtplib.SMTP(host='p21-exch-2013.plannet21.ie', port=587)
+s = smtplib.SMTP(host='p21-exch-2013.plannet21.ie', port=587) # Here I am not using smtp.office365.com but instead p21 exchange
+
 
 s.starttls()
 s.login(emailadd, password)
