@@ -1,2 +1,2 @@
 # PythonRepo
-This repository has useful codes created while studying for Python
+This repository has useful codes created during Python study
