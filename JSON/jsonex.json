@@ -1,0 +1,12 @@
+{
+  "Student1":{"Name": "Hunt",
+              "Hobby" : ["Football", "Games"]
+              }
+  ,
+
+  "Student2":
+              {"Name": "Hunt",
+              "Hobby" : ["Football", "Games"]
+              }
+
+}
