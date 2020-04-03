@@ -1,0 +1,2 @@
+This folder has scripts to login to device and collect output of mentioned commands and then compare the output with the result of last
+output to see if any difference.
