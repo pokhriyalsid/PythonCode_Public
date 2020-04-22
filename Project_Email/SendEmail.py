@@ -7,13 +7,13 @@ import getpass
 
 emailadd = 'spokhriyal@plannet21.ie'
 password = getpass.getpass()
-s = smtplib.SMTP(host='p21-exch-2013.plannet21.ie', port=587) # Here I am not using smtp.office365.com but instead p21 exchange
+s = smtplib.SMTP(host='xxxxxx', port=587) # xxx is your exchange server
 
 
 s.starttls()
 s.login(emailadd, password)
 
-toemail = 'siddharth_hunt@yahoo.com'
+toemail = 'yyyyy'  # Enter recepient email here
 msg = MIMEMultipart()
 message = 'Good job Sid'
 # setup the parameters of the message
